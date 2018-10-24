@@ -9,6 +9,7 @@
 @title{MfA Introduction to Computer Science}
 
 @section{Schedule}
+
 @tabular[#:sep @hspace[1] #:style schedule-style
          (list (list @bold{Week} @bold{Topic} @bold{Curriculum})
                (list "1"       "Expressions, Contracts, and Definitions" @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3"))
@@ -18,8 +19,6 @@
 	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "BS:Reactive Units 1-5"))
 	       (list "6"       "Create"                                      @(hyperlink "https://www.bootstrapworld.org/materials/spring2018/" "All courses")))]
 
-
-@section{Curriculum}
 
 @section{Bibliography}
 
