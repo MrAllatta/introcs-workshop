@@ -1,16 +1,22 @@
 #lang scribble/base
+@(require scribble/core
+	  scribble/html-properties)
+
+@(define schedule-style
+	 (make-style "Schedule"
+	 	     (list (make-css-addition "my-style.css"))))
 
 @title{MfA Introduction to Computer Science}
 
 @section{Schedule}
-@tabular[#:sep @hspace[1] #:style 'centered
+@tabular[#:sep @hspace[1] #:style schedule-style
          (list (list @bold{Week} @bold{Topic} @bold{Curriculum})
                (list "1"       "Expressions, Contracts, and Definitions" @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3"))
 	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9"))
-	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "Data Science"))
-	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "Data Science"))
-	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "Reactive"))
-	       (list "6"       "Create"                                      @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "Reactive")))]
+	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3"))
+	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:DS Units 4-9"))
+	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "BS:Reactive Units 1-5"))
+	       (list "6"       "Create"                                      @(hyperlink "https://www.bootstrapworld.org/materials/spring2018/" "All courses")))]
 
 
 @section{Curriculum}
