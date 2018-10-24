@@ -10,7 +10,7 @@
 
 @section{Schedule}
 
-@tabular[#:sep @hspace[1] #:style schedule-style
+@tabular[#:style schedule-style
         (list (list @bold{Week} @bold{Topic} @bold{Curriculum})
                (list "1"       "Expressions, Contracts, and Definitions" @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3"))
 	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9"))
@@ -33,16 +33,24 @@
 
 @section{Bibliography}
 	@(hyperlink "http://picturingprograms.com/" "Picturing Programs")
+	
 	@(hyperlink "https://htdp.org/" "How to Design Programs")
-	@(hyperlink "http://www.realmofracket.com/" "Realm of Racket") 
+	
+	@(hyperlink "http://www.realmofracket.com/" "Realm of Racket")
+	
 	@(hyperlink "https://mitpress.mit.edu/books/simply-scheme-second-edition" "Simply Scheme")
+	
 	@(hyperlink "https://mitpress.mit.edu/books/little-schemer-fourth-edition" "Little Schemer")
+	
 	@(hyperlink "https://mitpress.mit.edu/sites/default/files/sicp/index.html" "Structure and Interpretation of Computer Programs")
+	
 	@(hyperlink "https://papl.cs.brown.edu/2018/" "Programming and Programming Languages")
+	
 	@(hyperlink "http://cs.brown.edu/~sk/Publications/Books/ProgLangs/" "Programming Languages: Application and Interpretation")
 
 @subsection{Articles}
 	@(hyperlink "https://csweb.rice.edu/content/shriram-krishnamurthi-programming-languages-and-algebra" "Programming Languages and Algebra")
+	
 	@(hyperlink "https://www.bootstrapworld.org/impact/" "Bootstrap Impact Articles")
 
 
