@@ -23,10 +23,12 @@
 
 @subsection{Browser-based}
 	@(hyperlink "https://www.wescheme.org/" "WeScheme")
+	
 	@(hyperlink "https://code.pyret.org" "Pyret")
 
 @subsection{Local}
 	@(hyperlink "https://download.racket-lang.org/" "DrRacket")
+	
 	@(hyperlink "https://www.npmjs.com/package/pyret-experimental-cli" "Pyret-cli")
 
 @section{Bibliography}
