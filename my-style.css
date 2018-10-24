@@ -1,6 +1,11 @@
+body {
+    background-color: light-grey;
+}
+
 table.Schedule, tr {
     text-align: left;
     width: 100%;
+    border-collapse: collapse;
 }
 
 table.Schedule td {
