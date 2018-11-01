@@ -14,10 +14,10 @@
         (list (list @bold{Week} @bold{Topic} @bold{Curriculum} @bold{Pre-reading})
                (list "1"       "Expressions, Contracts, and Definitions"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3") @hyperlink["https://htdp.org/2018-01-06/Book/part_one.html#%28part._sec~3aarith-num%29"]{"HtDP 1.1-1.4"})
 	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9") "placeholder")
-	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3" "placeholder"))
-	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:DS Units 4-9" "placeholder"))
-	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "BS:Reactive Units 1-5" "placeholder"))
-	       (list "6"       "Create"                                      @(hyperlink "https://www.bootstrapworld.org/materials/spring2018/" "All courses")))]
+	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3")"placeholder")
+	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:DS Units 4-9")"placeholder")
+	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "BS:Reactive Units 1-5") "placeholder")
+	       (list "6"       "Create"                                      @(hyperlink "https://www.bootstrapworld.org/materials/spring2018/" "All courses") "placeholder"))]
 
 @section{Programming Environments}
 		   Racket is a extension of the Scheme language with libraries for most common software engineering tasks, like interactive programs and web servers. The syntax of the two languages is largely the same. Racket has "student languages" that you can load if you are using DrRacket. Racket:BSL (beggining student language) lets you write your first programs without getting error messages that you might not have enough information to understand. WeScheme is basically a web-version of the BSL. The error messages in WeScheme are taylored to students, and are some of the most literate messages that you will find in any language.
