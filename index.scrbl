@@ -12,7 +12,7 @@
 
 @tabular[#:style schedule-style
         (list (list @bold{Week} @bold{Topic} @bold{Curriculum} @bold{Pre-reading})
-               (list "1"       "Expressions, Contracts, and Definitions"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3") @hyperlink["https://htdp.org/2018-01-06/Book/part_one.html#%28part._sec~3aarith-num%29"]{"HtDP 1.1-1.4"})
+               (list "1"       "Expressions, Contracts, and Definitions"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3") @hyperlink["https://htdp.org/2018-01-06/Book/part_one.html#%28part._sec~3aarith-num%29"]{HtDP 1.1-1.4})
 	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9") "placeholder")
 	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3")"placeholder")
 	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:DS Units 4-9")"placeholder")
@@ -37,23 +37,24 @@
 @section{Bibliography}
 	@subsection{Text Books}
 		 @subsubsection{Racket}
-		 @(hyperlink "https://htdp.org/" "How to Design Programs")
+		 @(hyperlink "https://htdp.org/" "How to Design Programs") ::
 		 HtDP is the main book on which the original Bootstrap:Algebra curriculum is based. We cover the first have of the first part in our workshop. We will look at adding structure at the end of the workshop after we have seen data tables. HtDP is a widely used introductory college text for computer science majors.
-		 @(hyperlink "http://picturingprograms.com/" "Picturing Programs")
+
+		 @(hyperlink "http://picturingprograms.com/" "Picturing Programs") ::
 		 Picturing Programs is very similar to HtDP. It is an introductory programming text written in Racket that uses images as its primary mode of project. Its not widely used but still a great resource. I have borrowed many programming examples and tasks from this book.
 
-				@(hyperlink "http://www.realmofracket.com/" "Realm of Racket")
+				@(hyperlink "http://www.realmofracket.com/" "Realm of Racket") ::
 				Racket video games. Very fun.
 
 @subsubsection{Scheme}
 	
-	@(hyperlink "https://mitpress.mit.edu/books/simply-scheme-second-edition" "Simply Scheme")
+	@(hyperlink "https://mitpress.mit.edu/books/simply-scheme-second-edition" "Simply Scheme") ::
 	I don't do any Simply Scheme in our workshop, but I'm a big fan. It starts with lists right away, but uses the model of sentences and words to understand how lists work. Its really clever.
 	
-	@(hyperlink "https://mitpress.mit.edu/books/little-schemer-fourth-edition" "Little Schemer")
+	@(hyperlink "https://mitpress.mit.edu/books/little-schemer-fourth-edition" "Little Schemer") ::
 	Little Schemer and its companion books were written by some of the folks who wrote HtdP. It uses a dialogue style that helps the reader develop intutions. It uses the old Scheme "car" and "cdr", which is the same as Racket's "first" and "rest".
 
-	@(hyperlink "https://mitpress.mit.edu/sites/default/files/sicp/index.html" "Structure and Interpretation of Computer Programs")
+	@(hyperlink "https://mitpress.mit.edu/sites/default/files/sicp/index.html" "Structure and Interpretation of Computer Programs") ::
 	Probably the most famous computer science text ever written. I've met many programmers with SICP war stories. Most of the texts above state as their goal to create an entry point into SICP.
 
 @subsection{Pyret}
