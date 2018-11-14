@@ -39,6 +39,7 @@
 		 @subsubsection{Racket}
 		 @(hyperlink "https://htdp.org/" "How to Design Programs")
 		 HtDP is the main book on which the original Bootstrap:Algebra curriculum is based. We cover the first have of the first part in our workshop. We will look at adding structure at the end of the workshop after we have seen data tables. HtDP is a widely used introductory college text for computer science majors.
+
 		 @(hyperlink "http://picturingprograms.com/" "Picturing Programs")
 		 Picturing Programs is very similar to HtDP. It is an introductory programming text written in Racket that uses images as its primary mode of project. Its not widely used but still a great resource. I have borrowed many programming examples and tasks from this book.
 
