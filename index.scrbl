@@ -20,7 +20,7 @@
         (list (list @bold{Week} @bold{Topic} @bold{Curriculum} @bold{Pre-reading})
                (list "1"       "Expressions, Contracts, and Definitions"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3") "No Pre Reading")
 	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9") @hyperlink["https://htdp.org/2018-01-06/Book/part_one.html#%28part._sec~3aarith-num%29"]{HtDP 1.1-1.4})
-	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3")"placeholder")
+	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3") @(hyperlink "https://papl.cs.brown.edu/2018/index.html" "PaPL Chapters 1-4 (especially 4)"))
 	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:DS Units 4-9")"placeholder")
 	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "BS:Reactive Units 1-5") "placeholder")
 	       (list "6"       "Create"                                      @(hyperlink "https://www.bootstrapworld.org/materials/spring2018/" "All courses") "placeholder"))]
