@@ -8,12 +8,18 @@
 
 @title{MfA Introduction to Computer Science}
 
+@section{Workshop Links}
+@(hyperlink "https://goo.gl/forms/FIVBfs3xmKXLqZuH3" "Workshop Feedback form")
+
+@(hyperlink "https://goo.gl/forms/LcGTdnN5AK03kOQo1" "Workshop Project Collection form")
+
+@(hyperlink "https://docs.google.com/spreadsheets/d/1a2u6ZPZAf17-ftaPqhL9lP6GUeVPjEvkXImwGdWpIY4/edit#gid=1907400977" "Workshop Project Collection backend")
 @section{Schedule}
 
 @tabular[#:style schedule-style
         (list (list @bold{Week} @bold{Topic} @bold{Curriculum} @bold{Pre-reading})
-               (list "1"       "Expressions, Contracts, and Definitions"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3") @hyperlink["https://htdp.org/2018-01-06/Book/part_one.html#%28part._sec~3aarith-num%29"]{HtDP 1.1-1.4})
-	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9") "placeholder")
+               (list "1"       "Expressions, Contracts, and Definitions"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit1/index.html" "Bootstrap:Algebra Units 1-3") "No Pre Reading")
+	       (list "2"       "Designing Functions"                         @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit4/index.html" "Bootstrap:Algebra Units 4-9") @hyperlink["https://htdp.org/2018-01-06/Book/part_one.html#%28part._sec~3aarith-num%29"]{HtDP 1.1-1.4})
 	       (list "3"       "Data Tables, Methods, and Visualization"     @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:Data Science Units 1-3")"placeholder")
 	       (list "4"       "Exploring Data and Table Plans"              @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/data-science/en-us/units/unit1/index.html" "BS:DS Units 4-9")"placeholder")
 	       (list "5"       "Data Definitions and Reactive Systems"       @(hyperlink "https://www.bootstrapworld.org/materials/fall2018/courses/reactive/en-us/units/unit1/index.html" "BS:Reactive Units 1-5") "placeholder")
@@ -41,7 +47,7 @@
 		 HtDP is the main book on which the original Bootstrap:Algebra curriculum is based. We cover the first have of the first part in our workshop. We will look at adding structure at the end of the workshop after we have seen data tables. HtDP is a widely used introductory college text for computer science majors.
 
 <<<<<<< HEAD
-		 @(hyperlink "http://picturingprograms.com/" "Picturing Programs")
+		 @(hyperlink "http://picturingprograms.com/" "Picturing Programs") ::
 =======
 		 @(hyperlink "http://picturingprograms.com/" "Picturing Programs") ::
 >>>>>>> b4ac7f2d7638c350a425a74ecf6baaa564545410
