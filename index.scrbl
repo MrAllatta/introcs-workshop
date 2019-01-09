@@ -8,6 +8,9 @@
 
 @title{MfA Introduction to Computer Science}
 
+@section{Description}
+This course is for teachers who are new or relatively new to the study of computer science and are looking for a systematic and carefully built foundation for continued study. Designing programs means applying a design process to computations beginning with an understanding of the data. This course begins with recognizing the structure in the data all around us, starting with simple arithmetic expressions. These expressions build procedures which computer scientists learn how to evaluate and then predict outcomes. As they design their own programs, they learn to create tools to solve problems by asking, "If there was a tool that already exists to solve my problem, how would it work?" They break down large problems into small problems and recursively apply their skills to build complex systems. In this course, teachers will learn to solve computational problems by applying these fundamental skills of computer science. Participants will solve many computational problems, build a video game, and design custom image composition programs. Content from this course is expressed in the Racket programming language and its descendant Pyret and is aligned with the CS017/19 Introduction to CS courses at Brown University.
+
 @section{Workshop Links}
 @(hyperlink "https://goo.gl/forms/FIVBfs3xmKXLqZuH3" "Workshop Feedback form")
 
